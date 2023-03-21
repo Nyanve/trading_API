@@ -1,0 +1,40 @@
+Sure, I can provide you with a step-by-step guide to completing this program. Here's a to-do list that you can follow:
+
+Learn Flask: If you have no experience with Flask, you'll need to learn the basics.
+ Flask is a Python web framework that allows you to build web applications and RESTful APIs
+ quickly and easily. You can start with the official Flask documentation or find online tutorials and courses.
+
+Setup your environment: Install Flask and other dependencies required for your project. You can use a
+ virtual environment to manage the dependencies and avoid conflicts with other projects.
+
+Create the API endpoints: Create the required endpoints as specified in the API specification. You can use
+ Flask-RESTful to simplify the process of building RESTful APIs. For example, you can create a resource for
+  each endpoint and define the HTTP methods that are allowed.
+
+Setup the database: Choose a database that suits your needs, such as PostgreSQL or MySQL, and install the
+necessary driver. You can use an ORM like SQLAlchemy to interact with the database and define the data models.
+
+Define the data models: Define the data models for the database tables. For example, you can create a table
+ for exchanges and another table for cryptocurrencies. Use SQLAlchemy to define the relationships between the tables.
+
+Implement the API endpoints: Implement the logic for each API endpoint. For example, when a new exchange is added,
+ you need to insert a new row into the exchanges table in the database. Use SQLAlchemy to interact with the database.
+
+Write tests: Write tests to ensure that your API endpoints are working as expected. You can use a testing framework
+ like unittest or PyTest to write unit tests for each endpoint. Test different scenarios, such as adding a new exchange,
+  updating a cryptocurrency, or retrieving a list of trades.
+
+Create the CLI application: If you choose to implement the CLI application, you can use a library like Click to build
+ the command-line interface. Define the commands and options for the application, and implement the logic for each command.
+
+Document your application: Write a README file that describes the requirements and setup for your application. Include
+instructions for setting up the environment, running the application, and running the tests. Document the API endpoints
+ and the expected response for each endpoint.
+
+Publish your code: Publish your code on a public repository like GitHub so that others can read it, pull it, and build
+ it themselves.
+
+These are the general steps that you can follow to complete this program. Don't hesitate to ask for help or
+ clarification when needed, and remember to test your code thoroughly to ensure that it's working as expected.
+
+Good luck!
